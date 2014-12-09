@@ -1,0 +1,23 @@
+/**
+ * Custom color scheme
+ * ----------------------------------------------------------------------------
+ */
+
+$primary:  #C87D7D;
+
+$navigation-bar-title:        $primary;
+$navigation-bar-item:         $primary;
+$navigation-background:       $primary;
+
+$topbar-link-bg:              $primary;
+$topbar-link-bg-hover:        darken($primary, 15%);
+$topbar-link-bg-focus:        darken($primary, 15%);
+$topbar-link-bg-active:       darken($primary, 15%);
+$topbar-divider:              #DCC4C4;
+
+$topbar-dropdown-bg:          darken($primary, 20%);
+$topbar-dropdown-label-bg:    darken($primary, 20%);
+
+/* small menu */
+nav.tab-bar.show-for-small-only  { background: $primary; }
+section.left-small               { border-right: solid 1px #DCC4C4; }
